@@ -17,7 +17,6 @@ def look_for_place(credentials, age, nat)
   else
     'Not japanese, pls go on this line.'
   end
-
 end
 i = 0
 age = 15
