@@ -1,2 +1,2 @@
 # ruby_path
-My learning path for Ruby
+My learning path for Ruby basics
