@@ -8,11 +8,12 @@ class Gadget
   def initialize (uername, password)
     @username = username
     @password = password
-    @production_number = "#{('a'..'z').to_a.sample}-#{rand(1..100)}"
+    @production_number = "#{('a'..'z').to_a.sample}-#{rand(1..999)}"
   end
 
   def to_s
-    "Gadget #{@production_number} has the username #{@username} it is made by the #{self.class} class and it's id is #{self.object_id}"
+    "Gadget #{@production_number} has the username #{@username} 
+    It is made by the #{self.class} class and it's id is #{self.object_id}"
   end
 end
 

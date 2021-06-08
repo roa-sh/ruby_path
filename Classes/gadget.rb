@@ -6,7 +6,8 @@ class Gadget
   end
 
   def to_s
-    "Gadget #{@production_number} has the username #{@username} it is made by the #{self.class} class and it's id is #{self.object_id}"
+    "Gadget #{@production_number} has the username #{@username}
+    It is made by the #{self.class} class and it's id is #{self.object_id}"
   end
 
   def username
